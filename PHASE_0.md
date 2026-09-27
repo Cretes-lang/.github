@@ -14,7 +14,7 @@ Reviewed 2026-09-27 through the GitHub web interface. Foundation scope only: ide
 | 0.8 | Security | SECURITY.md published. Private vulnerability reporting enabled and verified in all five repositories. Organization 2FA enforcement remains pending member readiness. |
 | 0.9 | Contributions | CONTRIBUTING.md, CODE_OF_CONDUCT.md and PULL_REQUEST_TEMPLATE.md published as shared community standards. |
 | 0.10 | Versioning | VERSIONING.md published. No language release or compatibility promise is issued. |
-| 0.11 | Branch strategy | ENGINEERING.md published. Main protection verified for `cretes`, `spec`, `rfcs` and `website`; `.github` protection is the remaining live-setting step. |
+| 0.11 | Branch strategy | ENGINEERING.md published. Main protection verified for all five repositories: `.github`, `cretes`, `spec`, `rfcs` and `website`. |
 | 0.12 | Quality gates | Review and future validation requirements documented in ENGINEERING.md. No compiler CI or required status check is claimed. |
 | 0.13 | Documentation | Specification index and engineering documentation hierarchy established; normative language chapters deferred. |
 | 0.14 | Communication | Organization Discussions enabled using `.github` as the source repository; issue, RFC and private security channels documented. |
@@ -22,14 +22,14 @@ Reviewed 2026-09-27 through the GitHub web interface. Foundation scope only: ide
 
 ## Verified repository controls
 
-All five repositories have private vulnerability reporting enabled. The four verified main branch protection rules require pull requests and resolved conversations, apply to administrators, and prohibit force pushes and deletion. Required approvals are not enabled under the documented sole-maintainer policy. Required status checks are not configured because no implementation or CI checks exist.
+All five repositories have private vulnerability reporting enabled. All five verified main branch protection rules require pull requests and resolved conversations, apply to administrators, and prohibit force pushes and deletion. Required approvals are not enabled under the documented sole-maintainer policy. Required status checks are not configured because no implementation or CI checks exist.
 
 ## Open dependencies
 
-- Finish and verify `.github/main` protection.
 - Decide whether to restore CODEOWNERS in `.github`, `spec`, `rfcs` and `website`. Later deletions are not silently reversed.
 - Verify member 2FA readiness before enforcing the organization requirement; the previous review found a member without 2FA. No member was removed or locked out by this setup.
 - Obtain explicit approval before adding the project email to the public organization profile field. Existing project documents already contain the project contact address.
 - Domain ownership, registration, DNS and domain email remain unverified. `cretes.org` is a proposal, not a verified official website.
 
 No compiler, runtime, approved syntax, supported release or deployed website is delivered by this foundation. Phase 0 must not be described as fully closed until the applicable open dependencies are resolved.
+
