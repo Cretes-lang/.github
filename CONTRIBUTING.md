@@ -1,6 +1,6 @@
 # Contributing to Cretes
 
-Thank you for helping establish Cretes. Phase 0 (governance and repository foundation) is complete. Phase 1 defines the language vision, requirements and design principles in the [`spec` repository](https://github.com/Cretes-lang/spec). Language syntax and compiler implementation have not begun. There is no compiler build command or development toolchain to install yet.
+Thank you for helping establish Cretes. The Phase 0 governance and repository foundation is established; outstanding administrative dependencies remain tracked in [PHASE_0.md](PHASE_0.md). Phase 1 defines the language vision, requirements and design principles in the [`spec` repository](https://github.com/Cretes-lang/spec). Language syntax and compiler implementation have not begun. There is no compiler build command or development toolchain to install yet.
 
 ## Before a change
 
