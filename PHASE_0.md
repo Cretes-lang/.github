@@ -1,30 +1,35 @@
 # Phase 0 acceptance record
 
-Foundation scope: project identity, repositories, policies and engineering process only. Language requirements, syntax and implementation belong to subsequent phases.
+Reviewed 2026-09-27 through the GitHub web interface. Foundation scope only: identity, repositories, governance and engineering process. Phase 1 and language/compiler implementation have not started.
 
-| Section | Deliverable | Evidence / verification |
+| Section | Deliverable | Review result |
 | --- | --- | --- |
-| 0.1 | Identity and `.cretes` extension | IDENTITY.md |
-| 0.2 | Organization profile | Existing Cretes name, description and avatar; settings verification required |
-| 0.3 | Five foundation repositories | `.github`, `cretes`, `spec`, `rfcs`, `website`; verify live repository list |
-| 0.4 | Accountable ownership | GOVERNANCE.md and per-repository CODEOWNERS |
-| 0.5 | License | Apache-2.0 LICENSE in every repository |
-| 0.6 | Governance | GOVERNANCE.md |
-| 0.7 | RFC workflow | `rfcs` process and template |
-| 0.8 | Security reporting | SECURITY.md; private reporting setting verified separately |
-| 0.9 | Contribution and conduct | CONTRIBUTING.md, CODE_OF_CONDUCT.md and PR template |
-| 0.10 | Versioning | VERSIONING.md; no release published |
-| 0.11 | Branch strategy | ENGINEERING.md; branch protections verified separately |
-| 0.12 | Quality gates | ENGINEERING.md; future compiler checks explicitly deferred |
-| 0.13 | Documentation hierarchy | ENGINEERING.md and `spec` index |
-| 0.14 | Communication | IDENTITY.md and ENGINEERING.md; Discussions setting verified separately |
-| 0.15 | Completion review | This checklist plus the live configuration report |
+| 0.1 | Identity | IDENTITY.md records Cretes, `.cretes` and the four target domains. |
+| 0.2 | Organization profile | Public profile README published; existing name, description and avatar retained. Public profile email field remains pending explicit publication approval. |
+| 0.3 | Repositories | Five public repositories created: `.github`, `cretes`, `spec`, `rfcs`, `website`; main is the default branch. |
+| 0.4 | Ownership | GOVERNANCE.md names the initial maintainer. CODEOWNERS remains in `cretes`; later deletions in the other four repositories are preserved and require an ownership decision. |
+| 0.5 | Licensing | Apache-2.0 LICENSE present in all five repositories. |
+| 0.6 | Governance | GOVERNANCE.md defines roles, decision making, maintainer changes and appeals. |
+| 0.7 | RFC process | `rfcs` contains the lifecycle, review procedure and TEMPLATE.md. No language-design RFC is accepted. |
+| 0.8 | Security | SECURITY.md published. Private vulnerability reporting enabled and verified in all five repositories. Organization 2FA enforcement remains pending member readiness. |
+| 0.9 | Contributions | CONTRIBUTING.md, CODE_OF_CONDUCT.md and PULL_REQUEST_TEMPLATE.md published as shared community standards. |
+| 0.10 | Versioning | VERSIONING.md published. No language release or compatibility promise is issued. |
+| 0.11 | Branch strategy | ENGINEERING.md published. Main protection verified for `cretes`, `spec`, `rfcs` and `website`; `.github` protection is the remaining live-setting step. |
+| 0.12 | Quality gates | Review and future validation requirements documented in ENGINEERING.md. No compiler CI or required status check is claimed. |
+| 0.13 | Documentation | Specification index and engineering documentation hierarchy established; normative language chapters deferred. |
+| 0.14 | Communication | Organization Discussions enabled using `.github` as the source repository; issue, RFC and private security channels documented. |
+| 0.15 | Completion review | Files and live controls reviewed; remaining dependencies are recorded below. Full closure is pending. |
 
-## External and configuration dependencies
+## Verified repository controls
 
-- Domain registration, DNS and domain email remain unverified.
-- Do not invite additional maintainers before reviewing member 2FA readiness.
-- Written policies do not prove branch protections, private reporting, Discussions or CI are enabled. Record the observed settings in the completion report.
-- No compiler, language specification, supported release or deployed website is delivered by Phase 0.
+All five repositories have private vulnerability reporting enabled. The four verified main branch protection rules require pull requests and resolved conversations, apply to administrators, and prohibit force pushes and deletion. Required approvals are not enabled under the documented sole-maintainer policy. Required status checks are not configured because no implementation or CI checks exist.
 
-Phase 0 may be called fully complete only after all applicable live settings and external prerequisites are verified. Open dependencies must remain visible.
+## Open dependencies
+
+- Finish and verify `.github/main` protection.
+- Decide whether to restore CODEOWNERS in `.github`, `spec`, `rfcs` and `website`. Later deletions are not silently reversed.
+- Verify member 2FA readiness before enforcing the organization requirement; the previous review found a member without 2FA. No member was removed or locked out by this setup.
+- Obtain explicit approval before adding the project email to the public organization profile field. Existing project documents already contain the project contact address.
+- Domain ownership, registration, DNS and domain email remain unverified. `cretes.org` is a proposal, not a verified official website.
+
+No compiler, runtime, approved syntax, supported release or deployed website is delivered by this foundation. Phase 0 must not be described as fully closed until the applicable open dependencies are resolved.
