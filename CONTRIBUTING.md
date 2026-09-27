@@ -1,12 +1,12 @@
 # Contributing to Cretes
 
-Thank you for helping establish Cretes. This is Phase 0: governance, documentation and repository foundation. Language syntax and compiler implementation have not begun. There is no compiler build command or development toolchain to install yet.
+Thank you for helping establish Cretes. Phase 0 (governance and repository foundation) is complete. Phase 1 defines the language vision, requirements and design principles in the [`spec` repository](https://github.com/Cretes-lang/spec). Language syntax and compiler implementation have not begun. There is no compiler build command or development toolchain to install yet.
 
 ## Before a change
 
 1. Read the repository README, governance, security policy and Code of Conduct.
 2. Search existing issues and RFCs. Open a focused issue describing the problem and acceptance criteria.
-3. Use the RFC process for semantic, architecture, compatibility or governance changes.
+3. Use the RFC process for semantic, architecture, compatibility or governance changes. Cite the Phase 1 requirement IDs a proposal satisfies or changes.
 4. Never submit credentials, personal data, proprietary material or exploit details to public issues.
 
 ## Pull request workflow

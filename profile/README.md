@@ -4,14 +4,14 @@
 
 Automation · Networking · AI/ML Applications · Cybersecurity
 
-Cretes is an open-source programming-language project in its foundation stage. The language, compiler and runtime are not yet implemented.
+Cretes is an open-source programming-language project in its requirements stage. The language, compiler and runtime are not yet implemented. Start with the [language vision](https://github.com/Cretes-lang/spec/blob/main/docs/vision/VISION.md) and the [Phase 1 requirements](https://github.com/Cretes-lang/spec#phase-1-documentation).
 
 ## Project
 
 | Repository | Responsibility |
 | --- | --- |
 | [cretes](https://github.com/Cretes-lang/cretes) | Future compiler, runtime and toolchain |
-| [spec](https://github.com/Cretes-lang/spec) | Future language specification |
+| [spec](https://github.com/Cretes-lang/spec) | Requirements baseline and future language specification |
 | [rfcs](https://github.com/Cretes-lang/rfcs) | Proposals and design decisions |
 | [website](https://github.com/Cretes-lang/website) | Future project website |
 | [.github](https://github.com/Cretes-lang/.github) | Governance and community standards |
