@@ -35,4 +35,5 @@ Tracking issue: [spec#1](https://github.com/Cretes-lang/spec/issues/1) · Pull r
 ## Open dependencies
 
 - The Phase 0 open dependencies in [PHASE_0.md](PHASE_0.md) are unchanged by Phase 1.
-- Phase 1 must not be described as accepted until the `spec` pull request is merged.
+- The `spec` pull request was merged on 2026-09-27 (squash commit `d5f0f2b`) after a documented self-review.
+- An independent security review of the cryptography and supply-chain requirements remains recommended. It is not a blocker for recording requirements.
