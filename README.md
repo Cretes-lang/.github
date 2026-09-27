@@ -14,12 +14,13 @@ Cretes is an early-stage programming-language project targeting **Automation · 
 | [Engineering](ENGINEERING.md) | Branches, quality gates and documentation hierarchy |
 | [Versioning](VERSIONING.md) | Release and compatibility policy |
 | [Phase 0](PHASE_0.md) | Foundation acceptance checklist |
+| [Phase 1](PHASE_1.md) | Vision, requirements and design principles acceptance record |
 
 ## Repository responsibilities
 
 - `.github`: organization profile and shared community policies.
 - `cretes`: future compiler, runtime, standard library and toolchain.
-- `spec`: future normative language specification.
+- `spec`: Phase 1 requirements baseline and future normative language specification.
 - `rfcs`: proposals and recorded design decisions.
 - `website`: future public documentation website.
 
