@@ -2,7 +2,7 @@
 
 ## Initial stewardship
 
-Bunga Krishanth (@krishanth7) is the initial project lead and maintainer. Cretes currently uses a single-maintainer model; no foundation, board, staff or independent review team is implied.
+Krishanth (@krishanth7) is the initial project lead and maintainer. Cretes currently uses a single-maintainer model; no foundation, board, staff or independent review team is implied.
 
 The project lead stewards language design, compiler, runtime, standard library, tooling, security and documentation until maintainers are appointed. Maintain the smallest practical set of organization owners. Give contributors repository-scoped access appropriate to their duties. Require member 2FA before inviting additional maintainers, after checking account readiness and recovery.
 
